@@ -14,27 +14,27 @@
 
 
 // function isPrime(num) {
-//     if (num <= 1) return false;  // 1 yoki kichik sonlar tub emas
-//     for (let i = 2; i < num; i++) {  // Sonni 2 dan num-1 gacha bo'lgan sonlarga bo'lamiz
+//     if (num <= 1) return false;  
+//     for (let i = 2; i < num; i++) {  
 //         if (num % i === 0) {
-//             return false;  // Agar bo'linadigan son topilsa, tub emas
+//             return false;  
 //         }
 //     }
-//     return true;  // Agar bo'linadigan son topilmasa, tub son
+//     return true; 
 // }
 
 // function findPrimesFromList(numbers) {
 //     let primes = [];
 //     for (let i = 0; i < numbers.length; i++) {
 //         if (isPrime(numbers[i])) {
-//             primes.push(numbers[i]);  // Agar tub bo'lsa, ro'yxatga qo'shamiz
+//             primes.push(numbers[i]);  
 //         }
 //     }
 //     return primes;
 // }
 
-// let numbers = [10, 15, 3, 7, 2, 11, 17, 18, 23];  // Berilgan raqamlar ro'yxati
-// console.log(findPrimesFromList(numbers));  // Natijani konsolga chiqaramiz
+// let numbers = [10, 15, 3, 7, 2, 11, 17, 18, 23];  
+// console.log(findPrimesFromList(numbers));  
 
 
 
